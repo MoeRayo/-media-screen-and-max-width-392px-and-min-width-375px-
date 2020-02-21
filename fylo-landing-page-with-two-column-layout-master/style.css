@@ -1,0 +1,871 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+*:before, *:after {
+    box-sizing: inherit;
+}
+p,a {
+    font-family:'Open Sans';
+    color:  hsl(243, 87%, 12%);
+}
+h2{
+    font-family: 'Raleway';
+    color: hsl(243, 87%, 12%);
+}
+a{
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+input{
+    border-radius: 3px;
+    font-weight: 500;
+}
+input::placeholder{
+    color:rgb(202, 209, 216);
+    font-size: .8rem;
+}
+button{
+    background-color:hsl(224, 93%, 58%);
+    cursor: pointer;
+    color: #ffffff;
+    padding: .8rem;
+    border-radius: 3px;
+    border: 1px solid hsl(224, 93%, 58%);
+    box-shadow: 2px 2px 5px rgb(112, 130, 197);
+    font-weight: bold;
+}
+.illustration-image1--b,.illustration-image1--c,.illustration2--b,.illustration-image1--d,.mobile-curve{
+    display: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0 0 0;
+}
+li{
+    display: inline-block;
+    padding-right: 4rem;
+}
+.nav--last{
+    padding-right: 0;
+}
+
+/* header */
+header{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    padding-top: 6rem;
+    /* align-items: flex-start;    */
+}
+header div{
+    flex-basis: 50%;
+    margin-top: 3.5rem;
+}
+.header--h2{
+    padding-top: 4rem;
+   font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+header p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.input--header{
+    width: 50%;
+    border: 1px solid hsl(243, 87%, 12%);
+    margin: 2rem 1rem 0 0;
+    padding: .8rem;
+}
+.btn--header{
+    width: 30%;
+}
+/* main */
+main{
+    background-color:  #F8F8FE;
+    margin-top: 15rem;
+    position: relative; 
+    padding-bottom: 8rem;
+}
+.desktop-curve{
+    position: absolute;
+    top: -4.5rem;
+}
+.main--div{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+   padding-top: 3rem;
+   flex-flow: row-reverse;
+   justify-content: space-between;
+   align-items: center;   
+}
+main div section h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.main--first--para{
+    width: 80%;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
+.illustration2{
+    padding-top: 5rem;
+}
+.flyo--works{
+    color:  hsl(170, 45%, 43%);
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    margin-top: 2rem;
+    display: block;
+}
+.flyo--testimonial{
+    color:  hsl(243, 87%, 12%);
+
+    background-color: #ffffff;
+    width: 45%;
+    padding: 1.3rem;
+    font-size: .8rem;
+    line-height: 1.7rem;
+    margin-top: 4rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px hsl(0, 0%, 75%);
+}
+.image--testimonial{
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 1rem;
+}
+.testimonial-image-para{
+    display: inline-block;
+    font-weight: bold;
+    font-size: .7rem;
+    margin-left: .3rem;
+}
+.testimonial--span{
+    display: block;
+    font-size: .6rem;
+    font-weight: normal;
+    margin-top: -.8rem ;
+}
+
+/*  */
+.get--started{
+    background-color:  hsl(238, 22%, 44%);
+    padding: 7rem 0 6rem 0;
+    color: #ffffff;
+}
+.get--started--div{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.get--started--content{
+    width: 40%;
+}
+.get--started--content h2{
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.get--started--content p{
+    color: #ffffff;
+    font-size: 1.2rem;
+   line-height: 1.7rem;
+}
+.get--started--form{
+    width: 38%;
+}
+.get--started--form input{
+    width: 90%;
+    margin-bottom: 1rem;
+    border: none;
+    padding: 1.2rem;
+    padding: .8rem;
+}
+.get--started--form button{
+    width: 40%;
+}
+footer{
+    background-color:  hsl(243, 87%, 12%);
+    padding-top: 7rem;
+    color: hsl(0, 0%, 75%);
+}
+footer img{
+    color: #ffffff;
+}
+footer a,.font-icon,.attribution{
+     color:hsl(0, 0%, 75%);
+}
+.footer--div{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer--section{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer--section--div{
+    margin: 1.2rem 0 1.2rem 0;
+}
+footer p{
+    margin: 0 0 1.2rem 0;
+}
+/* .font-icon{
+    color: #ffffff;
+} */
+.icon{
+    display: inline-block;
+    margin-right: .8rem;
+}
+.attribution { 
+    font-size: 1rem; 
+    text-align: center;
+    font-family: monospace ;
+    font-weight: bold;
+    color: #ffffff;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width:1439px) and (min-width:375px){ 
+    .desktop-curve{
+        display: none;
+    }
+}
+    
+/*  */
+@media screen and (max-width:1275px) and (min-width:1250px){ 
+    .header--h2{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width:1250px) and (min-width:1200px){ 
+    .header--h2{
+        font-size: 2.3rem;
+    }
+    .input--header{
+        width: 95%;
+        margin-bottom: .8rem;
+    }
+    .btn--header{
+        width: 40%;
+    }
+    .flyo--testimonial{
+        width: 55%;
+    }
+   
+}
+@media screen and (max-width:1200px) and (min-width:1130px){ 
+    .illustration-image1--a{
+        display: none;
+    }
+    .illustration-image1--b{
+        display: unset;
+    }
+    header div{
+        margin-top: 1.5rem;
+    }
+    .input--header{
+        width: 90%;
+        margin-bottom: .8rem;
+    }
+    .btn--header{
+        width: 40%;
+    }
+    .flyo--testimonial{
+        width: 55%;
+    }
+    .get--started--content{
+        width: 45%;
+    }
+    .get--started--form button{
+        width: 45%;
+    }
+}
+@media screen and (max-width:1130px) and (min-width:1000px){ 
+    .illustration-image1--b,.illustration-image1--a{
+        display: none;
+    }
+    .illustration-image1--c{
+        display: unset;
+    }
+    .header--h2{
+        font-size: 2.3rem;
+    }
+    header div{
+        margin-top: 1.5rem;
+    }
+    .input--header{
+        width: 90%;
+        margin-bottom: .8rem;
+    }
+    .btn--header{
+        width: 40%;
+    }
+    .flyo--testimonial{
+        width: 60%;
+    }
+    .get--started--content{
+        width: 50%;
+    }
+    .get--started--form button{
+        width: 50%;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:750px){ 
+    header{
+        display: unset;
+    }
+    .illustration-image1--a{
+        display: block;
+        margin: 5rem auto 0 auto;
+    }
+    .header--h2{
+        font-size: 3rem;
+        text-align: center;
+        line-height: 4rem;
+        margin-bottom: 2rem;
+    }
+    header div{
+        margin: 1rem auto;
+        width: 90%;
+        color: hsl(243, 87%, 12%);
+    }
+    header p{
+        font-size: 1.9rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+    .input--header{
+        width: 60%;
+    }
+        
+    .main--div{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+     .illustration2{
+        display: block;
+        /* padding-top: 0; */
+        margin: 0 auto;
+    }
+    main div section h2{
+        font-size: 2.5rem;
+        margin: 3rem auto;
+        color:  hsl(243, 87%, 12%);
+    }
+    .main--first--para{
+        width: 80%;
+        font-size: 1.5rem;
+        margin: 1.5rem auto;
+        color: hsl(0, 0%, 75%);
+        font-weight: 500;
+
+    }
+    .flyo--works{
+        font-size: 1.5rem;
+    }
+    .flyo--testimonial{
+        text-align: left;
+        font-size: .9rem;
+        margin: 4rem auto;
+       
+    }
+
+    .get--started--div{
+        display: block;
+    }
+    .get--started--content{
+        width: 100%;
+        text-align: center;
+    }
+    .get--started--content p{
+        font-size: 1.6rem;
+       line-height: 2.3rem;
+       width: 70%;
+       text-align: center;
+       margin: 0 auto;
+    }
+    .get--started--form{
+        width: 60%;
+        margin: 2rem auto 0 auto;
+    }
+    .get--started--form input{
+        width: 100%;
+        margin-bottom: 1rem;
+        border: none;
+        padding: 1.2rem;
+        padding: .8rem;
+    }
+    .get--started--form button{
+        width: 100%;
+    }
+    .footer--section{
+        flex-flow: column;
+    }
+    .footer--section--div{
+        margin: 1rem 0 1.2rem 0;
+    }
+    .social--link{
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    
+}
+
+@media screen and (max-width:750px) and (min-width:490px){ 
+    li{
+        padding-right: 1.5rem;
+    } 
+    header{
+        display: unset;
+    }
+    .illustration-image1--a,.illustration-image1--c,.illustration2,.illustration-image1--d{
+        display: none;
+    }
+    .illustration2--b{
+        display: unset;
+    }
+    .illustration-image1--c{
+        display: block;
+        margin: 5rem auto 0 auto;
+    }
+    .header--h2{
+        font-size: 2.6rem;
+        text-align: center;
+        line-height: 4rem;
+        margin-bottom: 2rem;
+    }
+    header div{
+        margin: 1rem auto;
+        width: 90%;
+        color: hsl(243, 87%, 12%);
+    }
+    header p{
+        font-size: 1.6rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+    .input--header{
+        width: 60%;
+    }
+    .main--div{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    main div section h2{
+        font-size: 2.5rem;
+        margin: 3rem auto;
+        color:  hsl(243, 87%, 12%);
+    }
+    .main--first--para{
+        width: 80%;
+        font-size: 1.5rem;
+        margin: 1.5rem auto;
+        color: hsl(0, 0%, 75%);
+    }
+    .flyo--works{
+        font-size: 1.5rem;
+    }
+    .flyo--testimonial{
+        text-align: left;
+        font-size: .9rem;
+        margin: 4rem auto;
+        width: 60%;
+
+    }
+
+    .get--started--div{
+        display: block;
+    }
+    .get--started--content{
+        width: 100%;
+        text-align: center;
+    }
+    .get--started--content p{
+        font-size: 1.6rem;
+       line-height: 2.3rem;
+       width: 70%;
+       text-align: center;
+       margin: 0 auto;
+    }
+    .get--started--form{
+        width: 60%;
+        margin: 2rem auto 0 auto;
+    }
+    .get--started--form input{
+        width: 100%;
+        margin-bottom: 1rem;
+        border: none;
+        padding: 1.2rem;
+        padding: .8rem;
+    }
+    .get--started--form button{
+        width: 100%;
+    }
+    .footer--section{
+        flex-flow: column;
+    }
+    .social--link{
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:490px) and (min-width:393px){ 
+    .illustration2,.illustration-image1--a,.illustration-image1--b,.illustration-image1--c{
+        display: none;
+    }
+    .illustration2--b{
+        display: unset;
+    }
+    .illustration-image1--d{
+        margin: 5rem auto 0 auto;
+        display: block;
+        
+    }
+    nav{
+        display: block;
+        padding: 3rem 0 0 0;
+        text-align: center;
+    }
+    li{
+        display: inline-block;
+        padding: 1rem 2rem 0 0;
+    }
+    header{
+        display: unset;
+    }
+    header div{
+       text-align: center;
+    }
+    .header--h2{
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 3.8rem;
+        margin-bottom: 1rem;
+    }
+    header p{
+        font-size: 1.5rem;
+        line-height: 2.8rem;
+        text-align: center;
+        padding: .5rem;
+    }
+    .input--header{
+        width: 80%;
+        /* margin-bottom: 1rem; */
+        margin: 1rem auto ;
+    }
+    .btn--header{
+        width: 80%;
+    }
+    .main--div{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    main div section h2{
+        font-size: 2.5rem;
+        margin: 3rem auto;
+        color:  hsl(243, 87%, 12%);
+    }
+    .main--first--para{
+        width: 80%;
+        font-size: 1.5rem;
+        margin: 1.5rem auto;
+        color: hsl(0, 0%, 75%);
+    }
+    .flyo--works{
+        font-size: 1.5rem;
+    }
+    .flyo--testimonial{
+        text-align: left;
+        font-size: .9rem;
+        margin: 4rem auto;
+        width: 80%;
+    }
+    .get--started--div{
+        display: block;
+    }
+    .get--started--content{
+        width: 100%;
+        text-align: center;
+    }
+    .get--started--content h2{
+        font-size: 2.3rem;
+    }
+    .get--started--content p{
+        font-size: 1.3rem;
+       line-height: 2.3rem;
+       width: 90%;
+       text-align: center;
+       margin: 0 auto;
+    }
+    .get--started--form{
+        width: 70%;
+        margin: 2rem auto 0 auto;
+    }
+    .get--started--form input{
+        width: 100%;
+        margin-bottom: 1rem;
+        border: none;
+        padding: 1.2rem;
+        padding: .8rem;
+    }
+    .get--started--form button{
+        width: 100%;
+    }
+    .footer--section{
+        flex-flow: column;
+    }
+    .social--link{
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+}
+@media screen and (max-width:393px) and (min-width:392px){ 
+   .illustration2,.illustration-image1--a,.illustration-image1--b,.illustration-image1--c,.desktop-curve{
+        display: none;
+    }
+    .illustration2--b,.illustration-image1--d,.mobile-curve{
+        display: unset;
+    }
+    .illustration-image1--d{
+        margin: 5rem auto 0 auto;
+        display: block;        
+    }
+    .mobile-curve{
+        position: absolute;
+        top: -3rem;
+    }
+    header{
+        display: unset;
+    }
+    header div{
+       text-align: center;
+    }
+    .header--h2{
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 3.8rem;
+        margin-bottom: 1rem;
+    }
+    header p{
+        font-size: 1.5rem;
+        line-height: 2.8rem;
+        text-align: center;
+        padding: .5rem;
+    }
+    .input--header{
+        width: 80%;
+        /* margin-bottom: 1rem; */
+        margin: 1rem auto ;
+    }
+    .btn--header{
+        width: 80%;
+    }
+    .main--div{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    main div section h2{
+        font-size: 2.5rem;
+        margin: 3rem auto;
+        color:  hsl(243, 87%, 12%);
+    }
+    .main--first--para{
+        width: 80%;
+        font-size: 1.5rem;
+        margin: 1.5rem auto;
+        color: hsl(0, 0%, 75%);
+    }
+    .flyo--works{
+        font-size: 1.5rem;
+    }
+    .flyo--testimonial{
+        text-align: left;
+        font-size: .9rem;
+        margin: 4rem auto;
+        width: 80%;
+    }
+    .get--started--div{
+        display: block;
+    }
+    .get--started--content{
+        width: 100%;
+        text-align: center;
+    }
+    .get--started--content h2{
+        font-size: 2.3rem;
+    }
+    .get--started--content p{
+        font-size: 1.3rem;
+       line-height: 2.3rem;
+       width: 90%;
+       text-align: center;
+       margin: 0 auto;
+    }
+    .get--started--form{
+        width: 70%;
+        margin: 2rem auto 0 auto;
+    }
+    .get--started--form input{
+        width: 100%;
+        margin-bottom: 1rem;
+        border: none;
+        padding: 1.2rem;
+        padding: .8rem;
+    }
+    .get--started--form button{
+        width: 100%;
+    }
+    .footer--section{
+        flex-flow: column;
+    }
+    .social--link{
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:392px) and (min-width:100px){ 
+    .illustration2,.illustration-image1--a,.illustration-image1--b,.illustration-image1--c,.desktop-curve{
+        display: none;
+    }
+    .illustration2--b{
+        display: unset;
+    }
+    .illustration-image1--d{
+        margin: 5rem auto 0 auto;
+        display: block;
+        
+    }
+    nav{
+        display: block;
+        padding: 3rem 0 0 0;
+        text-align: center;
+    }
+    li{
+        display: inline-block;
+        padding: 1rem 2rem 0 0;
+    }
+    header{
+        display: unset;
+    }
+    header div{
+       text-align: center;
+    }
+    .header--h2{
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 3.8rem;
+        margin-bottom: 1rem;
+    }
+    header p{
+        font-size: 1.5rem;
+        line-height: 2.8rem;
+        text-align: center;
+        padding: .5rem;
+    }
+    .input--header{
+        width: 80%;
+        /* margin-bottom: 1rem; */
+        margin: 1rem auto ;
+    }
+    .btn--header{
+        width: 80%;
+    }
+    .main--div{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    main div section h2{
+        font-size: 2.5rem;
+        margin: 3rem auto;
+        color:  hsl(243, 87%, 12%);
+    }
+    .main--first--para{
+        width: 80%;
+        font-size: 1.5rem;
+        margin: 1.5rem auto;
+        color: hsl(0, 0%, 75%);
+    }
+    .flyo--works{
+        font-size: 1.5rem;
+    }
+    .flyo--testimonial{
+        text-align: left;
+        font-size: .9rem;
+        margin: 4rem auto;
+        width: 80%;
+    }
+    .get--started--div{
+        display: block;
+    }
+    .get--started--content{
+        width: 100%;
+        text-align: center;
+    }
+    .get--started--content h2{
+        font-size: 2.3rem;
+    }
+    .get--started--content p{
+        font-size: 1.3rem;
+       line-height: 2.3rem;
+       width: 90%;
+       text-align: center;
+       margin: 0 auto;
+    }
+    .get--started--form{
+        width: 70%;
+        margin: 2rem auto 0 auto;
+    }
+    .get--started--form input{
+        width: 100%;
+        margin-bottom: 1rem;
+        border: none;
+        padding: 1.2rem;
+        padding: .8rem;
+    }
+    .get--started--form button{
+        width: 100%;
+    }
+    .footer--section{
+        flex-flow: column;
+    }
+    .social--link{
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+}
+
